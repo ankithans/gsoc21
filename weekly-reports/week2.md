@@ -10,6 +10,7 @@
 ## Next Week
 - POC for validation of commands [issue#58](https://github.com/aerogear/charmil/issues/58)
 - Research on more validation methods for arguments in addition to what cobra provides [issue#68](https://github.com/aerogear/charmil/issues/68)
+- Provide User Documentation for logging, i18n and further features
 
 ## Blockers
 - Enhancing UX of the Library: Need to figure out the ways to improve the Developer experience [related comment](https://github.com/aerogear/charmil/pull/52#issuecomment-863791549), [discussion#57](https://github.com/aerogear/charmil/discussions/57)

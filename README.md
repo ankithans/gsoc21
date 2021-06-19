@@ -23,6 +23,7 @@ Charmil will grant your cobra-based CLI superpowers that cobra does not support 
 ## 📅 Weekly Reports
 - Week 1️⃣ [Trying to set core in place](weekly-reports/week1.md)
 - Week 2️⃣ [Finally there is something to move with](weekly-reports/week2.md)
+
 <br>
 
 ## ✨ Pull Requests & Issues
