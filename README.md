@@ -23,13 +23,17 @@ Charmil will grant your cobra-based CLI superpowers that cobra does not support 
 ## 📅 Weekly Reports
 - Week 1️⃣ [Trying to set core in place](weekly-reports/week1.md)
 - Week 2️⃣ [Finally there is something to move with](weekly-reports/week2.md)
-
 <br>
 
 ## ✨ Pull Requests & Issues
-- [#45 charmil as wrapper for cobra](https://github.com/aerogear/charmil/pull/45)
-- [#48 Factory(RHOAS) for driving charmil](https://github.com/aerogear/charmil/pull/48)
-- [#52 Add i18n support & improve logging](https://github.com/aerogear/charmil/pull/52)
+
+#### Pull Requests Created 
+
+| Pull Request  	| Related Issue  	|
+|---	|---	|
+| [#45 charmil as wrapper for cobra](https://github.com/aerogear/charmil/pull/45)  	        | Charmil Core  	|
+| [#48 Factory(RHOAS) for driving charmil](https://github.com/aerogear/charmil/pull/48)  	| Charmil Core  	|
+| [#52 Add i18n support & improve logging](https://github.com/aerogear/charmil/pull/52)  	| [#50](https://github.com/aerogear/charmil/issues/50) [#51](https://github.com/aerogear/charmil/issues/51)  	|
 
 <br>
 
