@@ -13,7 +13,7 @@
 ## Next Week
 Issues to be fixed [issue#58](https://github.com/aerogear/charmil/issues/58), [issue#84](https://github.com/aerogear/charmil/issues/84), [issue#85](https://github.com/aerogear/charmil/issues/85), [issue#86](https://github.com/aerogear/charmil/issues/86)
 - Verbose printing while validation [comment-link](https://github.com/aerogear/charmil/pull/82#discussion_r659134180)
-  - add related functions in logger and use them while debig printing
+  - add related functions in logger and use them while debug printing
 - (useMatches) Regex validation in command name [issue#84](https://github.com/aerogear/charmil/issues/84)
 - Arguments validators in cobra command [issue#85](https://github.com/aerogear/charmil/issues/85)
 - Config with array of commands during validation [issue#86](https://github.com/aerogear/charmil/issues/86)
