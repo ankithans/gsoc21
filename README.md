@@ -23,6 +23,7 @@ Charmil will grant your cobra-based CLI superpowers that cobra does not support 
 ## 📅 Weekly Reports
 - Week 1️⃣ [Trying to set core in place](weekly-reports/week1.md)
 - Week 2️⃣ [Finally there is something to move with](weekly-reports/week2.md)
+- Week 3️⃣ [Let's validate the cobra commands](weekly-reports/week3.md)
 
 <br>
 
@@ -32,9 +33,11 @@ Charmil will grant your cobra-based CLI superpowers that cobra does not support 
 
 | Pull Request  	| Related Issue  	|
 |---	|---	|
-| [#45 charmil as wrapper for cobra](https://github.com/aerogear/charmil/pull/45)  	        | Charmil Core  	|
-| [#48 Factory(RHOAS) for driving charmil](https://github.com/aerogear/charmil/pull/48)  	| Charmil Core  	|
-| [#52 Add i18n support & improve logging](https://github.com/aerogear/charmil/pull/52)  	| [#50](https://github.com/aerogear/charmil/issues/50) [#51](https://github.com/aerogear/charmil/issues/51)  	|
+| [#45](https://github.com/aerogear/charmil/pull/45) charmil as wrapper for cobra  	        | Charmil Core  	|
+| [#48](https://github.com/aerogear/charmil/pull/48) Factory(RHOAS) for driving charmil  	| Charmil Core  	|
+| [#52](https://github.com/aerogear/charmil/pull/52) Add i18n support & improve logging  	| [#50](https://github.com/aerogear/charmil/issues/50) [#51](https://github.com/aerogear/charmil/issues/51)  	|
+| [#82](https://github.com/aerogear/charmil/pull/82) Validator for cobra commands  	| [#58](https://github.com/aerogear/charmil/issues/58)  	|
+| [#83](https://github.com/aerogear/charmil/pull/83) CI/CD & issue pr templates  	| [#53](https://github.com/aerogear/charmil/issues/53)  	|
 
 <br>
 
