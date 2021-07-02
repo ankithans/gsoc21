@@ -24,6 +24,7 @@ Charmil will grant your cobra-based CLI superpowers that cobra does not support 
 - Week 1️⃣ [Trying to set core in place](weekly-reports/week1.md)
 - Week 2️⃣ [Finally there is something to move with](weekly-reports/week2.md)
 - Week 3️⃣ [Let's validate the cobra commands](weekly-reports/week3.md)
+- Week 4️⃣ [Garnishing charmil validator framework](weekly-reports/week4.md)
 
 <br>
 
