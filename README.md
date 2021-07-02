@@ -36,9 +36,14 @@ Charmil will grant your cobra-based CLI superpowers that cobra does not support 
 |---	|---	|
 | [#45](https://github.com/aerogear/charmil/pull/45) charmil as wrapper for cobra  	        | Charmil Core  	|
 | [#48](https://github.com/aerogear/charmil/pull/48) Factory(RHOAS) for driving charmil  	| Charmil Core  	|
-| [#52](https://github.com/aerogear/charmil/pull/52) Add i18n support & improve logging  	| [#50](https://github.com/aerogear/charmil/issues/50) [#51](https://github.com/aerogear/charmil/issues/51)  	|
-| [#82](https://github.com/aerogear/charmil/pull/82) Validator for cobra commands  	| [#58](https://github.com/aerogear/charmil/issues/58)  	|
-| [#83](https://github.com/aerogear/charmil/pull/83) CI/CD & issue pr templates  	| [#53](https://github.com/aerogear/charmil/issues/53)  	|
+| [#52](https://github.com/aerogear/charmil/pull/52) Add i18n support & improve logging  	| [issue#50](https://github.com/aerogear/charmil/issues/50) [#51](https://github.com/aerogear/charmil/issues/51)  	|
+| [#82](https://github.com/aerogear/charmil/pull/82) Validator for cobra commands  	| [issue#58](https://github.com/aerogear/charmil/issues/58)  	|
+| [#83](https://github.com/aerogear/charmil/pull/83) CI/CD & issue pr templates  	| [issue#53](https://github.com/aerogear/charmil/issues/53)  	|
+| [#97](https://github.com/aerogear/charmil/pull/97) fix: traverse all the child cmds + duplicates     | [issue#95](https://github.com/aerogear/charmil/issues/95)  	|
+| [#101](https://github.com/aerogear/charmil/pull/101) test for validator & add it to CI/CD   | [issue#94](https://github.com/aerogear/charmil/issues/94) [issue#92](https://github.com/aerogear/charmil/issues/92) 	|
+| [#767](https://github.com/redhat-developer/app-services-cli/pull/767) add cobra commands validator in Rhoas   | [issue#777](https://github.com/redhat-developer/app-services-cli/issues/777) |
+| [#103](https://github.com/aerogear/charmil/pull/103) validate rules in loop    | [issue#98](https://github.com/aerogear/charmil/issues/98) [issue#93](https://github.com/aerogear/charmil/issues/93) [issue#53](https://github.com/aerogear/charmil/issues/53)	|
+| [#105](https://github.com/aerogear/charmil/pull/105) Refactor RuleConfig in validator API   | [issue#110](https://github.com/aerogear/charmil/issues/110) [issue#104](https://github.com/aerogear/charmil/issues/104)  	|
 
 <br>
 
