@@ -25,6 +25,7 @@
 - Support for command completion [issue#134](https://github.com/aerogear/charmil/issues/134)
 - [Generic flags] Debug [#135](https://github.com/aerogear/charmil/issues/135)
 - Extract documentation helpers into charmil core [#136](https://github.com/aerogear/charmil/issues/136)
+- SkipChildren option not working in validator config [issue#151](https://github.com/aerogear/charmil/issues/151)
 
 ## Blockers
 - config in charmil core
