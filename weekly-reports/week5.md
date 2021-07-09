@@ -1,12 +1,17 @@
 # CLI for the CLI framework
 
 ## Week 5 Report
-- Refactor RuleConfig - remove methods from config [#issue110](https://github.com/aerogear/charmil/issues/110) [#105](https://github.com/aerogear/charmil/pull/105)
-- Overriding default rules provided by the validator [#issue104](https://github.com/aerogear/charmil/issues/104) [#105](https://github.com/aerogear/charmil/pull/105) 
+- Refactor RuleConfig - remove method implmentations in config structure [#issue110](https://github.com/aerogear/charmil/issues/110) [#105](https://github.com/aerogear/charmil/pull/105)
+- Overriding default rules provided by the validator [#issue104](https://github.com/aerogear/charmil/issues/104) [#105](https://github.com/aerogear/charmil/pull/105)
 - Regex validation in command name(UseMatches rule) [issue#84](https://github.com/aerogear/charmil/issues/84) [#139](https://github.com/aerogear/charmil/pull/139)
 - Set up gh-pages and settings for docusaurus [issue#140](https://github.com/aerogear/charmil/issues/140) [#142](https://github.com/aerogear/charmil/pull/142)
 - Config with array of commands during validation [issue#86](https://github.com/aerogear/charmil/issues/86) [#144](https://github.com/aerogear/charmil/pull/144)
+    - Skip Commands by mentioning the command path (provided by cobra)
+    - Skip Command and it's children/descendants by provding command path
+    - Skip commands for particular rule
 - Pull pkg from starter to charmil core [issue#149](https://github.com/aerogear/charmil/issues/149) [#154](https://github.com/aerogear/charmil/pull/154)
+    - Removes elements that are already in core
+    - Swaps some elements with charmil
 - Update charmil & validatorOptions in rhoas [#814](https://github.com/redhat-developer/app-services-cli/pull/814)
 
 ## Next Week
