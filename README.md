@@ -25,6 +25,7 @@ Charmil will grant your cobra-based CLI superpowers that cobra does not support 
 - Week 2️⃣ [Finally there is something to move with](weekly-reports/week2.md)
 - Week 3️⃣ [Let's validate the cobra commands](weekly-reports/week3.md)
 - Week 4️⃣ [Garnishing charmil validator framework](weekly-reports/week4.md)
+- Week 5️⃣ [CLI for the CLI framework](weekly-reports/week5.md)
 
 <br>
 
@@ -44,7 +45,12 @@ Charmil will grant your cobra-based CLI superpowers that cobra does not support 
 | [#767](https://github.com/redhat-developer/app-services-cli/pull/767) add cobra commands validator in Rhoas   | [issue#777](https://github.com/redhat-developer/app-services-cli/issues/777) |
 | [#103](https://github.com/aerogear/charmil/pull/103) validate rules in loop    | [issue#98](https://github.com/aerogear/charmil/issues/98) [issue#93](https://github.com/aerogear/charmil/issues/93) [issue#53](https://github.com/aerogear/charmil/issues/53)	|
 | [#105](https://github.com/aerogear/charmil/pull/105) refactor RuleConfig + overriding default values   | [issue#110](https://github.com/aerogear/charmil/issues/110) [issue#104](https://github.com/aerogear/charmil/issues/104) [issue#133](https://github.com/aerogear/charmil/issues/133)  	|
-| [#139](https://github.com/aerogear/charmil/pull/139) UseMatches rule for Use  	        | [issue#84](https://github.com/aerogear/charmil/issues/84)  	|
+| [#139](https://github.com/aerogear/charmil/pull/139) Regex validation in command name(UseMatches rule)  	        | [issue#84](https://github.com/aerogear/charmil/issues/84)  	|
+| [#142](https://github.com/aerogear/charmil/pull/142) Set up gh-pages and settings for docusaurus  	        | [issue#140](https://github.com/aerogear/charmil/issues/140)  	|
+| [#144](https://github.com/aerogear/charmil/pull/144) Config with array of commands during validation 	        | [issue#86](https://github.com/aerogear/charmil/issues/86) 	|
+| [#154](https://github.com/aerogear/charmil/pull/154) Pull pkg from starter to charmil core  	| [issue#149](https://github.com/aerogear/charmil/issues/149)	|
+| [#814](https://github.com/redhat-developer/app-services-cli/pull/814) Update charmil & validatorOptions in rhoas    | Breaking changes in new release |
+| [#155](https://github.com/aerogear/charmil/pull/155)   Charmil CLI for starter project       | [issue#143](https://github.com/aerogear/charmil/issues/143)  	|
 
 
 <br>
