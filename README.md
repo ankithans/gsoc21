@@ -26,11 +26,12 @@ Charmil will grant your cobra-based CLI superpowers that cobra does not support 
 - Week 3️⃣ [Let's validate the cobra commands](weekly-reports/week3.md)
 - Week 4️⃣ [Garnishing charmil validator framework](weekly-reports/week4.md)
 - Week 5️⃣ [CLI for the CLI framework](weekly-reports/week5.md)
-- Week 6️⃣ [CLI on the way](weekly-reports/week6.md)
+- Week 6️⃣ [CLI on it's way](weekly-reports/week6.md)
+- Week 7️⃣ [Fixing things up](weekly-reports/week7.md)
 
 <br>
 
-## ✨ Pull Requests & Issues
+<!-- ## ✨ Pull Requests & Issues
 
 #### Pull Requests Created 
 
@@ -54,7 +55,7 @@ Charmil will grant your cobra-based CLI superpowers that cobra does not support 
 | [#155](https://github.com/aerogear/charmil/pull/155)   Charmil CLI for starter project       | [issue#143](https://github.com/aerogear/charmil/issues/143)  	|
 
 
-<br>
+<br> -->
 
 ## 🔄 Would like to sync?
 - We are keeping all the communications open, so that everyone can sync and is free to contribute. So if you have any feature/bugs suggestions about anything please donot hesitate to open up an [issue](https://github.com/aerogear/charmil/issues/new)
