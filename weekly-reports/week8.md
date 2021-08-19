@@ -1,4 +1,4 @@
-# 
+# It needs a refactor
 
 ## Week 8 report
 - Feature to disable a particular rule in validator [issue#197](https://github.com/aerogear/charmil/issues/197) [#202](https://github.com/aerogear/charmil/pull/202)

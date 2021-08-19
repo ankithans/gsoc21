@@ -29,7 +29,7 @@ Charmil will grant your cobra-based CLI superpowers that cobra does not support 
 - Week 6️⃣ [CLI on it's way](weekly-reports/week6.md)
 - Week 7️⃣ [Fixing things up](weekly-reports/week7.md)
 - Week 8️⃣ [It needs a refactor](weekly-reports/week8.md)
-- Week 9️⃣ [](weekly-reports/week9.md)
+- Week 9️⃣ [Final move before completion](weekly-reports/week9.md)
 - Week 1️⃣0️⃣ [](weekly-reports/week10.md)
 
 
