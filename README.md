@@ -13,12 +13,14 @@
 <br>
 
 ## ❔ Project Abstract
-<p align="center">
-    <img src="https://github.com/aerogear/charmil/blob/main/docs/images/logo.png?raw=true">
-</p>
+
 
 [Charmil](https://github.com/aerogear/charmil/) is a framework for building command line plugins on top of Golang [Cobra](https://github.com/spf13/cobra) Library.
 Charmil will grant your cobra-based CLI superpowers that cobra does not support and that show to be crucial tools for efficiency and effectiveness. These CLI's can also be added to any Host CLI as plugins.
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/aerogear/charmil/main/docs/images/logo_cropped.png">
+</p>
 
 Cobra is standard and very famous in the CLI industry and is being used in many industry projects such as Kubernetes, rhoas, gh-cli, etc. To make the development process easier we introduced Charmil.
 
