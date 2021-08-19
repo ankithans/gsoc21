@@ -10,6 +10,6 @@
 - updating and reviewing documentation
 
 ## Links for case study repos
-- https://github.com/aerogear/charmil-host-example
-- https://github.com/aerogear/charmil-plugin-example
+- [charmil-host-example](https://github.com/aerogear/charmil-host-example)
+- [charmil-plugin-example](https://github.com/aerogear/charmil-plugin-example)
 
