@@ -18,6 +18,7 @@
 [Charmil](https://github.com/aerogear/charmil/) is a framework for building command line plugins on top of Golang [Cobra](https://github.com/spf13/cobra) Library.
 Charmil will grant your cobra-based CLI superpowers that cobra does not support and that show to be crucial tools for efficiency and effectiveness. These CLI's can also be added to any Host CLI as plugins.
 
+
 <p align="center">
     <img src="https://raw.githubusercontent.com/aerogear/charmil/main/docs/images/logo_cropped.png">
 </p>
@@ -25,6 +26,8 @@ Charmil will grant your cobra-based CLI superpowers that cobra does not support 
 Cobra is standard and very famous in the CLI industry and is being used in many industry projects such as Kubernetes, rhoas, gh-cli, etc. To make the development process easier we introduced Charmil.
 
 Charmil solves many problems/issues faced by developers during development of CLI’s. The major feature that Charmil brings on the table is the ability to develop multiple fragmented CLI’s, maintained/working in separate repositories, and later embed/combine them in a single Host CLI.
+
+
 
 ### Charmil Components in brief
 - Charmil SDK - For building mutlirepo CLI’s
@@ -105,11 +108,13 @@ Here is a small diagram to show how is validator working under the hood.
 ## ✨ Pull Requests & Issues
 
 ### Repositories
+
 - [aerogear/charmil](https://github.com/aerogear/charmil/)
 - [aerogear/charmil-starter](https://github.com/aerogear/charmil-starter)
 - [aerogear/charmil-host-example](https://github.com/aerogear/charmil-host-example)
 - [aerogear/charmil-plugin-example](https://github.com/aerogear/charmil-plugin-example)
 - [redhat-developer/app-services-cli](https://github.com/redhat-developer/app-services-cli)
+- [charmil topic on github](https://github.com/topics/charmil)
 
 
 ### Pull Requests Created 
