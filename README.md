@@ -98,8 +98,11 @@ This summarizes my work during this summer with [Aerogear](https://github.com/ae
 <br> 
 
 ## 🔮 Future Goals
-The Summer was productive for us, but there are some things we can do better. Mostly the future goals depends upon - [charmil issues](https://github.com/aerogear/charmil/issues), on which we will be continuing working on after GSoC ends.
-
+The Summer was productive for us, but there are some things we can do better. Mostly the future goals depends upon - [charmil issues](https://github.com/aerogear/charmil/issues), on which we will be continuing working on after GSoC ends. Here are some of the issues to catch up.
+- Ability to use plugins without compiling them into root CLI
+- Arguments validators in cobra command
+- Charmil starter should be automatically updated when changes in the repo
+- Ability to save command log/history
 
 <br>
 
