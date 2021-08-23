@@ -35,59 +35,9 @@ Charmil solves many problems/issues faced by developers during development of CL
 - Charmil CLI - Creating starter and managing CLI project
 - Charmil Command Registry - Install CLI plugins with binary from maintained registry
 
-<p align="center">
-    <img src="https://github.com/aerogear/charmil/blob/main/docs/images/charmil_pillar.png?raw=true">
-</p>
 
 For detailed description visit [Charmil](https://github.com/aerogear/charmil/)
 
-### Charmil Validator
-This is the charmil library for testing and controlling many aspects of cobra commands. Like to test react components we have react-testing-library, similar to that to test cobra commands with some given set of customizable rules, we have charmil validator.
-
-Validator provides a customizable set of config attributes, for example -
-
-```go
-ruleCfg := rules.ValidatorConfig{
-	ValidatorRules: rules.ValidatorRules{
-		Length: rules.Length{Limits: map[string]rules.Limit{"Use": {Min: 1}}},
-		MustExist: rules.MustExist{Fields: map[string]bool{"Args": true}},
-		UseMatches: rules.UseMatches{Regexp: `^[^-_+]+$`},
-	},
-}
-```
-Rules provided by validator -
-
-LengthRule
-MustExistRule
-UseMatchesRule
-ExampleMatchesRule
-It is recommended to use Charmil Validator while writing unit tests for the cobra commands. Validator can check if the commands are providing proper and latest documentation, length and presence of attributes, regex matching for command names etc. It also provides the feature to skip some command or skip including children for validation.
-
-```go
-validationErr := rules.ExecuteRules(cmd, &ruleCfg)
-if len(validationErr) != 0 {
-	t.Errorf("validationErr was not empty, got length: %d; want %d", len(validationErr), 0)
-}
-for _, errs := range validationErr {
-	if errs.Err != nil {
-		t.Errorf("%s: cmd %s: %s", errs.Rule, errs.Cmd.CommandPath(), errs.Name)
-	}
-}
-```
-
-Skipping commands for validation is very easy. To skip a single command just provide the CommandPath and to skip the entire chain of commands(including subcommands/children) use a asterik sign immediately after CommandPath
-
-```go
-ValidatorOptions: rules.ValidatorOptions{
-	SkipCommands: map[string]bool{"mycli actions*": true},
-}
-```
-
-Hence validator is very customizable and easy to use for developer productivity! For detailed documentation of charmil validator, visit Charmil Validator Docs
-
-Here is a small diagram to show how is validator working under the hood.
-
-![charmil-validator](https://cdn.discordapp.com/attachments/852928325197234256/866662866265964544/125803970-d47313c8-0bb9-42e9-81aa-ec4367f21634.png)
 <br>
 
 ## 📅 Weekly Reports
@@ -106,18 +56,7 @@ Here is a small diagram to show how is validator working under the hood.
 <br>
 
 ## ✨ Pull Requests & Issues
-
-### Repositories
-
-- [aerogear/charmil](https://github.com/aerogear/charmil/)
-- [aerogear/charmil-starter](https://github.com/aerogear/charmil-starter)
-- [aerogear/charmil-host-example](https://github.com/aerogear/charmil-host-example)
-- [aerogear/charmil-plugin-example](https://github.com/aerogear/charmil-plugin-example)
-- [redhat-developer/app-services-cli](https://github.com/redhat-developer/app-services-cli)
-- [charmil topic on github](https://github.com/topics/charmil)
-
-
-### Pull Requests Created 
+This summarizes my work during this summer with [Aerogear](https://github.com/aerogear)
 
 | Pull Request  	| Related Issue  	|
 |---	|---	|
@@ -156,11 +95,22 @@ Here is a small diagram to show how is validator working under the hood.
 | [#219](https://github.com/aerogear/charmil/pull/219)   chore: refactor core package       | [issue#213](https://github.com/aerogear/charmil/issues/213) [issue#183](https://github.com/aerogear/charmil/issues/183) [issue#185](https://github.com/aerogear/charmil/issues/185)  	|
 | [#223](https://github.com/aerogear/charmil/pull/202)   feat: example builder utility       | [issue#218](https://github.com/aerogear/charmil/issues/218)  	|
 
+<br> 
 
-
+## 🔮 Future Goals
+The Summer was productive for us, but there are some things we can do better. Mostly the future goals depends upon - [charmil issues](https://github.com/aerogear/charmil/issues), on which we will be continuing working on after GSoC ends.
 
 
 <br>
+
+
+## 🤝 Acknowledgment
+A big thanks to my mentors [Wojciech Trocki](https://github.com/wtrocki), [Jack Delahunt](https://github.com/jackdelahunt), [Dimitri Saridakis](https://github.com/dimakis), [JJ Kiely](https://github.com/jjkiely), [Ramakrishna Pattnaik](https://github.com/rkpattnaik780), [
+Maksym Vavilov](https://github.com/makslion) for being active and guiding us during the whole period. 
+
+Thank you for including me in the project's development; it was a fantastic learning experience for me this summer.
+
+<br> 
 
 ## 🔄 Would like to sync?
 - We are keeping all the communications open, so that everyone can sync and is free to contribute. So if you have any feature/bugs suggestions about anything please donot hesitate to open up an [issue](https://github.com/aerogear/charmil/issues/new)
@@ -168,8 +118,12 @@ Here is a small diagram to show how is validator working under the hood.
 
 <br>
 
-## 🔗 Links
-- [Charmil Github Repository](https://github.com/aerogear/charmil/)
-- [My Blog](https://ankithans.github.io)
+## 🔗 Important Links
+- [aerogear/charmil](https://github.com/aerogear/charmil/)
+- [aerogear/charmil-starter](https://github.com/aerogear/charmil-starter)
+- [aerogear/charmil-host-example](https://github.com/aerogear/charmil-host-example)
+- [aerogear/charmil-plugin-example](https://github.com/aerogear/charmil-plugin-example)
+- [redhat-developer/app-services-cli](https://github.com/redhat-developer/app-services-cli)
+- [My Blog & Website](https://ankithans.github.io)
 
 <br>
